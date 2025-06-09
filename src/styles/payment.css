@@ -1,0 +1,84 @@
+.payment-form {
+    max-width: 420px;
+    margin: auto;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    font-family: system-ui, sans-serif;
+  }
+  
+  .secure-header {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #006aff;
+    margin-bottom: 1rem;
+  }
+  .secure-header svg {
+    margin-left: auto;
+  }
+  
+  .PaymentElement,               
+  .StripeElement {   
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 12px 16px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .PaymentElement:focus,
+  .StripeElement:focus {
+    border-color: #006aff;
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .payment-form button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: black;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  .payment-form button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  .payment-form button:hover:not(:disabled) {
+    background-color: rgb(189, 50, 30);
+  }
+
+.card-number-input {
+    padding-right: 6rem;
+  }
+  
+  .card-number-section {
+    position: relative;
+  }
+  
+  .card-icons {
+    position: absolute;
+    top: 2.5rem;    
+    right: 1rem;    
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .card-icons img {
+    height: 1.5rem;
+    width: auto;
+  }
+
+.can{
+    color: rgb(189, 50, 30);
+    font-family: system-ui, sans-serif;
+    font-weight: bold;
+}
